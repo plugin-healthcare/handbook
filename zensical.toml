@@ -46,7 +46,13 @@ Copyright &copy; 2025 The authors
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
    { "Welkom" = "index.md" },
-   { "Markdown in 5min" = "markdown.md" },
+   { "Leeswijzer" = [
+        "leeswijzer/index.md",
+        "leeswijzer/data-gebruiker.md",
+        "leeswijzer/technicus.md",
+        "leeswijzer/bestuurder.md",
+        "leeswijzer/ontwikkelaar.md",
+    ]},
  ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
@@ -72,6 +78,8 @@ nav = [
 # ----------------------------------------------------------------------------
 [project.theme]
 
+logo = "images/logo.png"
+
 # change this to "classic" to use the traditional Material for MkDocs look.
 #variant = "classic"
 
@@ -93,7 +101,7 @@ nav = [
 # - https://zensical.org/docs/setup/logo-and-icons/#favicon
 # - https://developer.mozilla.org/en-US/docs/Glossary/Favicon
 #
-#favicon = "assets/images/favicon.png"
+favicon = "images/favicon.png"
 
 # Zensical supports more than 60 different languages. This means that the
 # labels and tooltips that Zensical's templates produce are translated.
@@ -122,13 +130,13 @@ features = [
     # will generate an edit button for the page. This works for common
     # repository hosting services.
     # https://zensical.org/docs/setup/repository/#code-actions
-    #"content.action.edit",
+    "content.action.edit",
 
     # If you have a repository configured and turn feature this on, Zensical
     # will generate a button that allows the user to view the Markdown
     # code for the current page.
     # https://zensical.org/docs/setup/repository/#code-actions
-    #"content.action.view",
+    "content.action.view",
 
     # Code annotations allow you to add an icon with a tooltip to your
     # code blocks to provide explanations at crucial points.
@@ -214,7 +222,7 @@ features = [
     # When tabs are enabled, top-level sections are rendered in a menu layer
     # below the header for viewports above 1220px, but remain as-is on mobile.
     # https://zensical.org/docs/setup/navigation/#navigation-tabs
-    #"navigation.tabs",
+    "navigation.tabs",
 
     # When sticky tabs are enabled, navigation tabs will lock below the header
     # and always remain visible when scrolling down.
