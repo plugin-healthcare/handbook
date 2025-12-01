@@ -2,165 +2,33 @@
 icon: lucide/rocket
 ---
 
-# Get started
+# Welkom bij PLUGIN: solidair met onze gezondheidsdata, voor de zorg van morgen
 
-For full documentation visit [zensical.org](https://zensical.org/docs/).
+In Nederlandse ziekenhuizen is ontzettend veel waardevolle kennis aanwezig. Gegevens over behandelingen en uitkomsten kunnen ons helpen om de zorg van morgen te verbeteren. Maar hoe delen we deze inzichten zonder de privacy van patiënten in gevaar te brengen en zonder dat medische gegevens zomaar 'op straat' komen te liggen? Dat is waar **PLUGIN** voor staat.
 
-## Commands
+## Wat is PLUGIN?
+PLUGIN is een data infrastructuur van en voor de Nederlandse ziekenhuiszorg. Het is een zogeheten **Health Data Space**: een veilige, digitale omgeving waarin zorgdata hergebruikt kan worden voor wetenschappelijk onderzoek, innovatie en beleid - ook wel secundair gebruik genoemd.
 
-* [`zensical new`][new] - Create a new project
-* [`zensical serve`][serve] - Start local web server
-* [`zensical build`][build] - Build your site
+Het unieke aan PLUGIN is dat het een initiatief is van en voor de zorg zelf, met een publiek karakter zonder winstoogmerk. Daarmee willen we waarborgen dat onze zordata op een solidaire en betrouwbare manier wordt hergebruikt en daarmee publieke, maatschappelijke waarde creëert.
 
-  [new]: https://zensical.org/docs/usage/new/
-  [serve]: https://zensical.org/docs/usage/preview/
-  [build]: https://zensical.org/docs/usage/build/
+## Hoe werkt het? Data blijft bij de bron
+Traditioneel worden voor onderzoek vaak kopieën van medische dossiers naar één centrale database gestuurd. Dat brengt veel risico's met zich mee. PLUGIN draait dit om. Wij werken volgens het principe: **Data blijft bij de bron**.
 
-## Examples
+In plaats van de gegevens te verplaatsen naar de onderzoeker, brengen wij de onderzoeksvraag naar de data toe. De gegevens blijven veilig achter de muren van het ziekenhuis staan. Onze technologie zorgt ervoor dat de analyse in het ziekenhuis zelf plaatsvindt en alleen de uitkomsten worden gedeeld. Een dergelijke manier van werken wordt ook wel *federatief analyseren* of *federatief leren* genoemd.
 
-### Admonitions
+## Klaar voor de toekomst: De Europese context (EHDS)
+De zorg houdt niet op bij de landsgrenzen. De Europese Unie werkt aan de **European Health Data Space (EHDS)**: een set nieuwe wetten en afspraken die het makkelijker moet maken om gezondheidsdata veilig te delen binnen Europa[cite: 112]. Nederland bouwt hiervoor aan een Landelijk Dekkend Netwerk. PLUGIN is hier een onderdeel van: sinds 2022 werken wij met een partners uit het veld om dit te realiseren en bereiden we de functionaliteit en dekkingsgraad van PLUGIN steeds verder uit.
 
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/)
+PLUGIN bereidt Nederlandse ziekenhuizen voor op deze toekomst. Wij zorgen dat de techniek en de afspraken zo zijn ingericht dat we straks naadloos en veilig kunnen aansluiten op dit Europese netwerk.
 
-!!! note
+## Wat doet PLUGIN concreet?
+Wij leveren de diensten die nodig zijn om deze samenwerking mogelijk te maken. [cite_start]Dit doen we op drie niveaus[cite: 78, 79]:
 
-    This is a **note** admonition. Use it to provide helpful information.
+* **Toezien op eerlijke spelregels:** Wij zorgen voor de spelregels, het toezicht en de centrale 'telefoonboek'-functie zodat onderzoekers en ziekenhuizen elkaar veilig kunnen vinden.
+* **Ziekenhuizen helpen met het aansluiten op PLUGIN:** Wij ondersteunen ziekenhuizen bij de techniek om aan te sluiten en daarmee hun data op een gecontroleerde manier beschikbaar te stellen. We helpen met de installatie van de benodigde software en het beheer, zodat zij de controle houden over hun eigen data.
+* **Gebruikers helpen de data te gebruiken:** Wij bieden onderzoekers de gereedschappen om – zonder de data te zien – toch gedetailleerde analyses en specifieke berekeningen te doen op de gegevens. Zo zetten we data om in waardevolle inzichten voor de zorg.
 
-!!! warning
+Samen bouwen we aan een lerend zorgsysteem, waarin veiligheid, betrouwbaarheid en medische vooruitgang hand in hand gaan.
 
-    This is a **warning** admonition. Be careful!
-
-### Details
-
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/#collapsible-blocks)
-
-??? info "Click to expand for more info"
-    
-    This content is hidden until you click to expand it.
-    Great for FAQs or long explanations.
-
-## Code Blocks
-
-> Go to [documentation](https://zensical.org/docs/authoring/code-blocks/)
-
-``` python hl_lines="2" title="Code blocks"
-def greet(name):
-    print(f"Hello, {name}!") # (1)!
-
-greet("Python")
-```
-
-1.  > Go to [documentation](https://zensical.org/docs/authoring/code-blocks/#code-annotations)
-
-    Code annotations allow to attach notes to lines of code.
-
-Code can also be highlighted inline: `#!python print("Hello, Python!")`.
-
-## Content tabs
-
-> Go to [documentation](https://zensical.org/docs/authoring/content-tabs/)
-
-=== "Python"
-
-    ``` python
-    print("Hello from Python!")
-    ```
-
-=== "Rust"
-
-    ``` rs
-    println!("Hello from Rust!");
-    ```
-
-## Diagrams
-
-> Go to [documentation](https://zensical.org/docs/authoring/diagrams/)
-
-``` mermaid
-graph LR
-  A[Start] --> B{Error?};
-  B -->|Yes| C[Hmm...];
-  C --> D[Debug];
-  D --> B;
-  B ---->|No| E[Yay!];
-```
-
-## Footnotes
-
-> Go to [documentation](https://zensical.org/docs/authoring/footnotes/)
-
-Here's a sentence with a footnote.[^1]
-
-Hover it, to see a tooltip.
-
-[^1]: This is the footnote.
-
-
-## Formatting
-
-> Go to [documentation](https://zensical.org/docs/authoring/formatting/)
-
-- ==This was marked (highlight)==
-- ^^This was inserted (underline)^^
-- ~~This was deleted (strikethrough)~~
-- H~2~O
-- A^T^A
-- ++ctrl+alt+del++
-
-## Icons, Emojis
-
-> Go to [documentation](https://zensical.org/docs/authoring/icons-emojis/)
-
-* :sparkles: `:sparkles:`
-* :rocket: `:rocket:`
-* :tada: `:tada:`
-* :memo: `:memo:`
-* :eyes: `:eyes:`
-
-## Maths
-
-> Go to [documentation](https://zensical.org/docs/authoring/math/)
-
-$$
-\cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
-$$
-
-!!! warning "Needs configuration"
-    Note that MathJax is included via a `script` tag on this page and is not
-    configured in the generated default configuration to avoid including it
-    in a pages that do not need it. See the documentation for details on how
-    to configure it on all your pages if they are more Maths-heavy than these
-    simple starter pages.
-
-<script id="MathJax-script" async src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [["\\(", "\\)"]],
-      displayMath: [["\\[", "\\]"]],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    options: {
-      ignoreHtmlClass: ".*|",
-      processHtmlClass: "arithmatex"
-    }
-  };
-</script>
-
-## Task Lists
-
-> Go to [documentation](https://zensical.org/docs/authoring/lists/#using-task-lists)
-
-* [x] Install Zensical
-* [x] Configure `zensical.toml`
-* [x] Write amazing documentation
-* [ ] Deploy anywhere
-
-## Tooltips
-
-> Go to [documentation](https://zensical.org/docs/authoring/tooltips/)
-
-[Hover me][example]
-
-  [example]: https://example.com "I'm a tooltip!"
+---
+**Wilt u meer weten over de technische specificaties of hoe uw organisatie kan aansluiten?**
