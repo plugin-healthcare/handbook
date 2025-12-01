@@ -18,6 +18,8 @@ Traditioneel worden voor onderzoek vaak kopieën van medische dossiers naar éé
 
 In plaats van de gegevens te verplaatsen naar de onderzoeker, brengen wij de onderzoeksvraag naar de data toe. De gegevens blijven veilig achter de muren van het ziekenhuis staan. Onze technologie zorgt ervoor dat de analyse in het ziekenhuis zelf plaatsvindt en alleen de uitkomsten worden gedeeld. Een dergelijke manier van werken wordt ook wel *federatief analyseren* of *federatief leren* genoemd.
 
+In het geval dat het niet anders kan, zoals bijvoorbeeld wanneer data verschillende zorginstellingen gecombineerd moeten worden of dat de data moeten worden opgenomen in een landelijke registratie, worden de data via het PLUGIN netwerk op een veilige manier doorgestuurd naar een centrale omgeving.
+
 ## Klaar voor de toekomst: de Europese context
 De zorg houdt niet op bij de landsgrenzen. De Europese Unie werkt aan de **European Health Data Space (EHDS)**: een set nieuwe wetten en afspraken die het makkelijker moet maken om gezondheidsdata veilig te delen binnen Europa[cite: 112]. Nederland bouwt hiervoor aan een Landelijk Dekkend Netwerk. PLUGIN is hier een onderdeel van: sinds 2022 werken wij met een partners uit het veld om dit te realiseren en bereiden we de functionaliteit en dekkingsgraad van PLUGIN steeds verder uit.
 

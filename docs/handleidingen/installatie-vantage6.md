@@ -18,7 +18,7 @@ title: Installatiegids vantage6
 
     | Distributie | Documentatie |
     |:---|:---|
-    | Python3 (vanilla) | [uv | using Python environments](https://docs.astral.sh/uv/pip/environments/) |
+    | Python3 (vanilla) | [Using Python environments with uv](https://docs.astral.sh/uv/pip/environments/) |
     | Anaconda | [Managing environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) |
 
 
