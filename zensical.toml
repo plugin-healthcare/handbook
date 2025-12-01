@@ -53,6 +53,11 @@ nav = [
         "leeswijzer/bestuurder.md",
         "leeswijzer/ontwikkelaar.md",
     ]},
+   { "Handleidingen" = [
+        "handleidingen/index.md",
+        "handleidingen/benodigdheden-deelname.md",
+        "handleidingen/installatie-vantage6.md",
+   ]}
  ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
