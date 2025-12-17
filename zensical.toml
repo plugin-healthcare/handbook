@@ -11,7 +11,7 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "PLUGIN Handboek"
+site_name = "PLUGIN"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
@@ -34,7 +34,7 @@ site_url = "https://plugin-healthcare.github.io/handbook/"
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-Copyright &copy; 2025 The authors
+Copyright &copy; 2025 PLUGIN kernteam
 """
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
@@ -45,15 +45,21 @@ Copyright &copy; 2025 The authors
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-   { "Welkom" = "index.md" },
-   { "Leeswijzer" = [
+   { "voor datahouders" = "datahouders.md" },
+   { "voor datagebruikers" = "datagebruikers.md" },
+   { "leeswijzer" = [
         "leeswijzer/index.md",
         "leeswijzer/data-gebruiker.md",
         "leeswijzer/technicus.md",
         "leeswijzer/bestuurder.md",
         "leeswijzer/ontwikkelaar.md",
     ]},
-   { "Handleidingen" = [
+   { "community" = [
+        "community/index.md",
+        "community/nieuws.md",
+        "community/presentaties.md",
+     ]},
+   { "handleidingen" = [
         "handleidingen/index.md",
         "handleidingen/benodigdheden-deelname.md",
         "handleidingen/installatie-vantage6.md",
@@ -68,7 +74,7 @@ nav = [
 #
 # Read more: https://zensical.org/docs/customization/#additional-css
 #
-#extra_css = ["assets/stylesheets/extra.css"]
+extra_css = ["assets/stylesheets/logo-showcase.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
 # project to customize the behavior according to your needs.
@@ -76,7 +82,7 @@ nav = [
 # The path provided should be relative to the "docs_dir".
 #
 # Read more: https://zensical.org/docs/customization/#additional-javascript
-#extra_javascript = ["assets/javascript/extra.js"]
+extra_javascript = ["assets/javascript/logo-showcase.js"]
 
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
@@ -212,7 +218,7 @@ features = [
     # When navigation paths are activated, a breadcrumb navigation is rendered
     # above the title of each page
     # https://zensical.org/docs/setup/navigation/#navigation-path
-    "navigation.path",
+    # "navigation.path",
 
     # When pruning is enabled, only the visible navigation items are included
     # in the rendered HTML, reducing the size of the built site by 33% or more.
@@ -232,7 +238,7 @@ features = [
     # When sticky tabs are enabled, navigation tabs will lock below the header
     # and always remain visible when scrolling down.
     # https://zensical.org/docs/setup/navigation/#sticky-navigation-tabs
-    #"navigation.tabs.sticky",
+    "navigation.tabs.sticky",
 
     # A back-to-top button can be shown when the user, after scrolling down,
     # starts to scroll up again.
@@ -257,8 +263,9 @@ features = [
 
     # When navigation integration for the table of contents is enabled, it is
     # always rendered as part of the navigation sidebar on the left.
+    # DISABLED: We want horizontal navigation only, no sidebar
     # https://zensical.org/docs/setup/navigation/#navigation-integration
-    "toc.integrate",
+    #"toc.integrate",
 ]
 
 # ----------------------------------------------------------------------------

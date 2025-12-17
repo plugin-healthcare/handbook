@@ -1,0 +1,130 @@
+/* Logo Showcase Styling for Zensical */
+
+.logo-showcase-section {
+  margin-block: 3rem;
+  padding: 2rem 0;
+}
+
+.logo-showcase-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: var(--md-default-fg-color);
+}
+
+.marquee-container {
+  position: relative;
+  margin-block: 32px;
+  overflow: hidden;
+  background: var(--md-default-bg-color);
+}
+
+.marquee-mask-left,
+.marquee-mask-right {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.marquee-mask-left {
+  left: 0;
+  background: linear-gradient(
+    to right,
+    var(--md-default-bg-color) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.marquee-mask-right {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    var(--md-default-bg-color) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.marquee-track {
+  display: flex;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.logo-slide {
+  display: flex;
+  gap: 80px;
+  padding: 48px 50px;
+  align-items: center;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 120px;
+  width: 120px;
+  height: 60px;
+  filter: grayscale(1);
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.logo-wrapper:hover {
+  filter: grayscale(0);
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.logo-wrapper img {
+  max-height: 48px;
+  max-width: 120px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Responsive adjustments */
+@media (max-width: 760px) {
+  .logo-slide {
+    gap: 50px;
+    padding: 32px 30px;
+  }
+
+  .logo-wrapper {
+    min-width: 100px;
+    width: 100px;
+    height: 50px;
+  }
+
+  .logo-wrapper img {
+    max-height: 36px;
+    max-width: 100px;
+  }
+
+  .marquee-mask-left,
+  .marquee-mask-right {
+    width: 50px;
+  }
+}
+
+/* Dark mode support */
+[data-md-color-scheme="slate"] .marquee-mask-left {
+  background: linear-gradient(
+    to right,
+    var(--md-default-bg-color) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+[data-md-color-scheme="slate"] .marquee-mask-right {
+  background: linear-gradient(
+    to left,
+    var(--md-default-bg-color) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
