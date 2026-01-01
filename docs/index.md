@@ -11,19 +11,21 @@ hide:
 
 In Nederlandse ziekenhuizen is ontzettend veel waardevolle kennis aanwezig. Gegevens over behandelingen en uitkomsten kunnen ons helpen om de zorg van morgen te verbeteren. Maar hoe delen we deze inzichten zonder de privacy van patiënten in gevaar te brengen en zonder dat medische gegevens zomaar 'op straat' komen te liggen? Dat is waar **PLUGIN** voor staat.
 
+<br>
+
 ## Wat is PLUGIN?
-PLUGIN is een data infrastructuur van en voor de Nederlandse ziekenhuiszorg. Het is een zogeheten **Health Data Space**: een veilige, digitale omgeving waarin zorgdata hergebruikt kan worden voor wetenschappelijk onderzoek, innovatie en beleid - ook wel secundair gebruik genoemd.
+PLUGIN is een data infrastructuur van en vóór de Nederlandse ziekenhuiszorg. Het is een zogeheten **Health Data Space**: een veilige, digitale omgeving waarin zorgdata hergebruikt kan worden voor wetenschappelijk onderzoek, innovatie en beleid - ook wel secundair gebruik genoemd.
 
-Het unieke aan PLUGIN is dat het een initiatief is van en voor de zorg zelf, met een publiek karakter zonder winstoogmerk. Daarmee willen we waarborgen dat onze zordata op een solidaire en betrouwbare manier wordt hergebruikt en daarmee publieke, maatschappelijke waarde creëert.
+Het unieke aan PLUGIN is dat het een initiatief is van en vóór de zorg zelf, met een publiek karakter zonder winstoogmerk. Daarmee willen we waarborgen dat onze zordata op een solidaire en betrouwbare manier wordt hergebruikt en daarmee publieke, maatschappelijke waarde creëert.
 
-## Hoe het werkt: data blijven zoveel als mogelijk bij de bron
-Traditioneel worden voor onderzoek vaak kopieën van medische dossiers naar één centrale database gestuurd. Dat brengt veel risico's met zich mee. PLUGIN draait dit om. Wij werken volgens het principe dat **data bij de bron blijven**.
+### Hoe het werkt: data blijven zoveel als mogelijk bij de bron
+Traditioneel worden voor hergebruik van gezondeheidsgegevens vaak kopieën van medische dossiers naar één centrale database gestuurd. Dat brengt veel risico's met zich mee. PLUGIN draait dit om. Wij werken volgens het principe dat **data bij de bron blijven**.
 
-In plaats van de gegevens te verplaatsen naar de onderzoeker, brengen wij de onderzoeksvraag naar de data toe. De gegevens blijven veilig binnen de muren van het ziekenhuis staan. Onze technologie zorgt ervoor dat de analyse in het ziekenhuis zelf plaatsvindt en alleen de uitkomsten worden gedeeld. Een dergelijke manier van werken wordt ook wel *federatief analyseren* of *federatief leren* genoemd.
+In plaats van de gegevens te verplaatsen naar de datagebruiker, brengen wij de onderzoeksvraag naar de data toe. De gegevens blijven veilig binnen de muren van het ziekenhuis staan. Onze technologie zorgt ervoor dat de analyse in het ziekenhuis zelf plaatsvindt en alleen de uitkomsten worden gedeeld. Een dergelijke manier van werken wordt ook wel *federatief analyseren* of *federatief leren* genoemd.
 
 In het geval dat het niet anders kan, zoals bijvoorbeeld wanneer data verschillende zorginstellingen gecombineerd moeten worden of dat de data moeten worden opgenomen in een landelijke registratie, worden de data via het PLUGIN netwerk op een veilige manier doorgestuurd naar een centrale analyse omgeving.
 
-## Wat doet PLUGIN concreet?
+### Wat doet PLUGIN concreet?
 Wij leveren de diensten die nodig zijn om deze samenwerking mogelijk te maken. Dit doen we op drie niveaus:
 
 * **Toezien op eerlijke spelregels:** Wij zorgen voor de spelregels, het toezicht en de centrale 'telefoonboek'-functie zodat onderzoekers en ziekenhuizen elkaar veilig kunnen vinden.
@@ -45,8 +47,6 @@ Samen bouwen we aan een lerend zorgsysteem, waarin veiligheid, betrouwbaarheid e
 </div>
 
 <br>
-
-
 
 ### Inmiddels zijn 36 ziekenhuizen aangesloten op PLUGIN
 
@@ -174,20 +174,22 @@ Samen bouwen we aan een lerend zorgsysteem, waarin veiligheid, betrouwbaarheid e
 
 ---
 
-## Klaar voor de toekomst: de Europese context
+<br>
+
+### PLUGIN is klaar voor de toekomst: de Europese context
+
 De zorg houdt niet op bij de landsgrenzen. De Europese Unie werkt aan de **European Health Data Space (EHDS)**: een set nieuwe wetten en afspraken die het makkelijker moet maken om gezondheidsdata veilig te delen binnen Europa. Nederland bouwt hiervoor aan een Landelijk Dekkend Netwerk. PLUGIN is hier een onderdeel van: sinds 2022 werken wij met een partners uit het veld om dit te realiseren en bereiden we de functionaliteit en dekkingsgraad van PLUGIN steeds verder uit.
 
 PLUGIN bereidt Nederlandse ziekenhuizen voor op deze toekomst. Wij zorgen dat de techniek en de afspraken zo zijn ingericht dat we straks naadloos en veilig kunnen aansluiten op dit Europese netwerk.
 
+<br>
 
----
-
-## Meer lezen over PLUGIN
+### PLUGIN voor open en solidair hergebruik van data
 
 <div class="grid cards" markdown>
 
-- :lucide-hand-helping: __Datahouders__ <br>[_Wat kan PLUGIN betekenen voor datahouders?_ :octicons-arrow-right-24:](datahouder/index.md)
-- :lucide-database-backup: __Datagebruikers__ <br>[_Wat kan PLUGIN betekenen voor datagebruikers?_ :octicons-arrow-right-24:](datagebruiker/index.md)
-- :lucide-folder-code: __Open source community__ <br>[_Hoe kan ik bijdragen aan PLUGIN?_ :octicons-arrow-right-24:](community/ontwikkelaar.md)
+- :lucide-folder-code: __Gebouwd op open source__ <br>[Lees meer :octicons-arrow-right-24:](community/ontwikkelaar.md)
+- :lucide-signpost-big: __Een referentieimplementatie van data stations__ <br>[Lees meer :octicons-arrow-right-24:](https://health-ri.github.io/data-station-specification/)
+
 
 </div>

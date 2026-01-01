@@ -5,35 +5,14 @@ title: voor datahouders
 
 # PLUGIN ondersteund datahouders in het veilig beschikbaar stellen van gezondheidsgegevens
 
+Ziekenhuizen en andere datahouders staan voor een grote opgave om gezondheidsgegevens op grotere schaal beschikbaar te stellen voor hergebruik voor onderzoek,beleid en innovatie. De hoeveelheid gegevensverzoeken bij datahouders blijft onverminderd stijgen. Tegelijkertijd zien we dat veel van deze verzoeken of samenwerkingsverbanden allemaal een eigen infrastructuur nodig hebben. Dit terwijl de ontwikkelkalender van de IT afdeling al overvol is. Er is daarom dringend behoefte om op een __open, gestandaardiseerde__ en __veilige__ manier data beschikbaar te stellen. Dit is wat PLUGIN biedt.
+
+PLUGIN is een spin-off van Dutch Hospital Data (DHD) en brengt daarmee jarenlange ervaring met het implementeren en beheren van data verwerkingsomgevingen voor de zorg. Het vernieuwende van PLUGIN is dat sinds 2022 heeft gewerkt aan een landelijk dekkend, decentraal netwerk van zogenaamde data stations, waarmee hergebruik van gezondheidsgegevens op een betrouwbare en kosteneffectieve manier gerealiseerd kan worden. Per december 2025 zijn dan de helft van alle Nederlandse ziekenhuizen aangesloten op dit netwerk.
+
+Wat PLUGIN kan betekenen voor datahouders wordt in de volgende pagina's uitgelegd. Daarbij wordt PLUGIN op vijf verschillende niveaus uitgelegd: organisatie, taal, logisch (informatiemodel), systeem en infrastructuur.
+
 <figure markdown="span">
   ![](../images/nictiz.png){ width="400" }
 </figure>
 
 
-1.	Probleem
-a.	EHDS
-a.	Ontwikkelkalender is te vol
-b.	Elke aanvraag gebruikt z’n eigen infrastructuur
-c.	Hoeveelheid data-aanvragen stijgt 
-
-2.	Klantsegmenten
-a.	Ziekenhuizen
-b.	GGZ
-c.	Huisartsen
-d.	Langdurigezorg
-
-3.	Unieke waardepropositie (UVP)
-a.	We hebben inmiddels de helft van de ziekenhuizen aangesloten
-b.	Kostenstructuur is in lijn met DHD
-c.	We hebben een duidelijk stappenplan en jaren aan ervaring
-
-4.	Oplossing
-a.	Met PLUGIN werken we toe naar een Health Data Space voor Nederlandse ziekenhuizen
-b.	We kunnen dat houders ontzorgen en ondersteunen
-c.	We werken toe naar steeds betere data interoperabiliteit
-d.	Trusted Data Holder
-
-5.	Ongelijk voordeel
-a.	Wij hebben DHD als grote zusje 
-b.	Vertrouwen in het netwerk van ziekenhuizen 
-c.	We hebben de grootste footprint

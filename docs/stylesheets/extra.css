@@ -7,3 +7,9 @@
   --md-accent-fg-color--dark:   #EE8628;
 
 }
+
+/* Constrain homepage width for better readability */
+.md-content__inner {
+  max-width: 900px;
+  margin-right: auto;
+}

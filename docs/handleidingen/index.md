@@ -57,7 +57,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :lucide-rocket:{ .lg .middle } __PLUGIN als referentie implementatie van data stations__
+-   :lucide-signpost-big:{ .lg .middle } __PLUGIN als referentie implementatie van data stations__
 
     ---
 
