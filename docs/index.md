@@ -34,41 +34,21 @@ Samen bouwen we aan een lerend zorgsysteem, waarin veiligheid, betrouwbaarheid e
 
 
 <br>
-
----
-
 <br>
 
-<div class="grid" markdown>
+<div class="grid cards" markdown>
 
-![](images/data-owner-color.jpg){ align=left width=300 }
+- <figure markdown="span">![](images/data-owner-color.png){ width=200 }</figure><br>PLUGIN ondersteund [**datahouders**](./datahouder/index.md) in het veilig beschikbaar stellen van gezondheidsgegevens.
 
-!!! quote "PLUGIN ondersteund **datahouders** in het veilig beschikbaar stellen van gezondheidsgegevens"
-
-    Datahouders kunnen zich aansluiten op het PLUGIN netwerk. Hiervoor hebben we een duidelijk [stappenplan](). Daarbij helpen wij met de inrichting van de fysieke infrastructuur, ontlasten we de interne organisatie door de data aanlevering naar het data station in te richten en ...
-</div>
-
-<br>
-
----
-
-<br>
-
-<div class="grid" markdown>
-
-!!! quote "PLUGIN ondersteund **datagebruikers** met het geschikt maken van data en uitvoeren van analyses"
-
-    Datagebruikers ...
-
-![](images/data-user-color.jpg){ align=right width=300 }
+- <figure markdown="span">![](images/data-user-color.png){ width=200 }</figure><br>PLUGIN ondersteund [**datagebruikers**](./datagebruiker/index.md) met het hergebruik van data voor onderzoek, beleid en innovatie.
 
 </div>
 
 <br>
 
----
 
-## Inmiddels zijn 36 ziekenhuizen aangesloten op PLUGIN
+
+### Inmiddels zijn 36 ziekenhuizen aangesloten op PLUGIN
 
 <!-- <div class="logo-showcase-section"> -->
   <div class="marquee-container">
@@ -202,15 +182,12 @@ PLUGIN bereidt Nederlandse ziekenhuizen voor op deze toekomst. Wij zorgen dat de
 
 ---
 
-:nounproject-data-owner:
-
-## Meer lezen over wat PLUGIN kan betekenen voor een:
+## Meer lezen over PLUGIN
 
 <div class="grid cards" markdown>
 
-- :lucide-hand-helping: __Datahouders__ <br>[_Wat kan PLUGIN betekenen voor datahouders?_ :octicons-arrow-right-24:](datahouders/index.md)
-- :lucide-database-backup: __Datagebruikers__ <br>[_Wat kan PLUGIN betekenen voor datagebruikers?_ :octicons-arrow-right-24:](datagebruikers/index.md)
+- :lucide-hand-helping: __Datahouders__ <br>[_Wat kan PLUGIN betekenen voor datahouders?_ :octicons-arrow-right-24:](datahouder/index.md)
+- :lucide-database-backup: __Datagebruikers__ <br>[_Wat kan PLUGIN betekenen voor datagebruikers?_ :octicons-arrow-right-24:](datagebruiker/index.md)
 - :lucide-folder-code: __Open source community__ <br>[_Hoe kan ik bijdragen aan PLUGIN?_ :octicons-arrow-right-24:](community/ontwikkelaar.md)
-
 
 </div>
