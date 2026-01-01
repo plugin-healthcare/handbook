@@ -202,16 +202,15 @@ PLUGIN bereidt Nederlandse ziekenhuizen voor op deze toekomst. Wij zorgen dat de
 
 ---
 
+:nounproject-data-owner:
+
 ## Meer lezen over wat PLUGIN kan betekenen voor een:
 
 <div class="grid cards" markdown>
 
-- :lucide-user: __Onderzoeker en analist__ <br>_Hoe kan ik PLUGIN gebruiken voor mijn project?_ [:octicons-arrow-right-24:](leeswijzer/data-gebruiker.md)
-- :lucide-hard-hat: __Technicus__ <br>_Hoe kan ik mijn organisatie aansluiten bij PLUGIN?_ [:octicons-arrow-right-24:](leeswijzer/technicus.md)
-- :lucide-landmark: __Bestuurder en manager__ _<br>Hoe werken de spelregels de governance van PLUGIN?_ [:octicons-arrow-right-24:](leeswijzer/bestuurder.md)
-- :lucide-folder-code: __Ontwikkelaar__ <br>_Hoe kan ik ontwikkelen met en bijdragen aan PLUGIN?_ [:octicons-arrow-right-24:](leeswijzer/ontwikkelaar.md)
+- :lucide-hand-helping: __Datahouders__ <br>[_Wat kan PLUGIN betekenen voor datahouders?_ :octicons-arrow-right-24:](datahouders/index.md)
+- :lucide-database-backup: __Datagebruikers__ <br>[_Wat kan PLUGIN betekenen voor datagebruikers?_ :octicons-arrow-right-24:](datagebruikers/index.md)
+- :lucide-folder-code: __Open source community__ <br>[_Hoe kan ik bijdragen aan PLUGIN?_ :octicons-arrow-right-24:](community/ontwikkelaar.md)
 
 
 </div>
-
-[^1]: Icons by Setitik pixel from <a href="https://thenounproject.com/browse/collection-icon/black-fill-big-data-278800/" target="_blank" title="Shared Icons">Noun Project</a> (CC BY 3.0)

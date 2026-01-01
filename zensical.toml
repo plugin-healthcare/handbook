@@ -45,25 +45,28 @@ Copyright &copy; 2025 PLUGIN kernteam
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-   { "voor datahouders" = "datahouders.md" },
-   { "voor datagebruikers" = "datagebruikers.md" },
-   { "leeswijzer" = [
-        "leeswijzer/index.md",
-        "leeswijzer/data-gebruiker.md",
-        "leeswijzer/technicus.md",
-        "leeswijzer/bestuurder.md",
-        "leeswijzer/ontwikkelaar.md",
-    ]},
+   { "voor datahouders" = [
+        "datahouder/index.md",
+        "datahouder/bestuurder.md",
+        "datahouder/cio.md",
+        "datahouder/analist.md",
+   ]},
+   { "voor datagebruikers" = [
+        "datagebruiker/index.md",
+        "datagebruiker/onderzoek.md",
+        "datagebruiker/beleid.md",
+        "datagebruiker/innovatie.md",
+   ]},
+   { "handleidingen" = [
+        "handleidingen/index.md",
+        "handleidingen/benodigdheden-deelname.md",
+        "handleidingen/installatie-vantage6.md",
+   ]},
    { "community" = [
         "community/index.md",
         "community/nieuws.md",
         "community/presentaties.md",
      ]},
-   { "handleidingen" = [
-        "handleidingen/index.md",
-        "handleidingen/benodigdheden-deelname.md",
-        "handleidingen/installatie-vantage6.md",
-   ]}
  ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
@@ -74,7 +77,7 @@ nav = [
 #
 # Read more: https://zensical.org/docs/customization/#additional-css
 #
-extra_css = ["assets/stylesheets/logo-showcase.css"]
+extra_css = ["stylesheets/extra.css", "assets/stylesheets/logo-showcase.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
 # project to customize the behavior according to your needs.
@@ -102,7 +105,7 @@ font.text = "Figtree"
 # Read more:
 # - https://zensical.org/docs/customization/#extending-the-theme
 #
-#custom_dir = "overrides"
+custom_dir = "overrides"
 
 # With the "favicon" option you can set your own image to use as the icon
 # browsers will use in the browser title bar or tab bar. The path provided
@@ -281,6 +284,8 @@ features = [
 scheme = "default"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
+primary = "custom"
+accent = "custom"
 
 [[project.theme.palette]]
 scheme = "slate"
