@@ -116,7 +116,7 @@ Samen bouwen we aan een lerend zorgsysteem, waarin veiligheid, betrouwbaarheid e
           <img src="images/hospitals/logo-isala.svg" alt="Isala">
         </div>
         <div class="logo-wrapper">
-          <img src="images/hospitals/logo-jbz.webp" alt="Jeroen Bosch Ziekenhuis">
+          <img src="images/hospitals/logo-jbz.png" alt="Jeroen Bosch Ziekenhuis">
         </div>
         <div class="logo-wrapper">
           <img src="images/hospitals/logo-lumc.png" alt="LUMC">
@@ -185,7 +185,7 @@ Samen bouwen we aan een lerend zorgsysteem, waarin veiligheid, betrouwbaarheid e
           <img src="images/hospitals/logo-zuyderland.png" alt="Zuyderland">
         </div>
         <div class="logo-wrapper">
-          <img src="images/hospitals/logo-spaarne-gasthuis.webp" alt="Spaarne Gasthuis">
+          <img src="images/hospitals/logo-spaarne-gasthuis.png" alt="Spaarne Gasthuis">
         </div>
       </div>
     </div>
